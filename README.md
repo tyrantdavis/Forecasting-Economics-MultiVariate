@@ -42,9 +42,25 @@ An anonymized dataset that can be used to train the machine-learning model has b
 
 ## Conclusions
 
-TBD...
 
-- What economic challenges are anticipated?      
-- What is the latest observation??
-- What is the earliest observation?
-- Is the general trend upward or downward?
+
+- **What economic challenges were anticipated**? 
+    - gdfim is forecasted to significantly decline in the late 80s and the early 90s, but seems to start
+recovering.
+    - gdfce is forecasted to significantly decline
+- **What is the latest observation**?
+    - July 1989
+- **What is the earliest observation**?
+    - January 1959
+- **Is the general trend upward or downward**?
+
+  _Most forecasts show an increase, though some start to dip_.
+
+    - rgnp is forecasted to fluctuate in the early 1990s, but ultimately start growing.
+    - pgnp is forecasted to mostly grow, with one hiccup in the late 80s.
+    - ulc is forecasted to fluctuate and appears to even out.
+    - gdfco is forecasted to grow.
+    - gdf is forecasted to mostly grow.
+    - gdfim is forecasted to significantly decline in the late 80s and the early 90s, but seems to start recovering.
+    - gdfcf is forecasted to take a slight dip in 1990s, but then start growing.
+    - gdfce is forecasted to significantly decline.
