@@ -1,4 +1,6 @@
-# Building a Multivariate Time Series Model
+# [Building a Multivariate Time Series Model](https://nbviewer.org/github/tyrantdavis/Forecasting-Economics-MultiVariate/blob/main/Forecasting-WageGrowth-And-Inflation.ipynb) - Economics
+
+Click the title above to see a project demo.
 
 ## Introduction
 Since 1999, the U.S. Postal Service has been at the forefront of utilizing machine learning and scanning technologies. With the immense task of processing around half a billion pieces of mail daily, they have invested significant effort into researching and creating highly effective algorithms that can accurately read and interpret addresses. This innovation isn't limited to the postal service alone; various other applications have emerged in different sectors.
