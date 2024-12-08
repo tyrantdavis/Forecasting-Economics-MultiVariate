@@ -1,66 +1,39 @@
 # Building a Multivariate Time Series Model
 
 ## Introduction
-The goal of this project is to examine the variations in economic indicators, including gross national product (GNP) and inflation/deflation, over time. This examination will allow forecasting possible economic difficulties that could emerge in the near future.
+Since 1999, the U.S. Postal Service has been at the forefront of utilizing machine learning and scanning technologies. With the immense task of processing around half a billion pieces of mail daily, they have invested significant effort into researching and creating highly effective algorithms that can accurately read and interpret addresses. This innovation isn't limited to the postal service alone; various other applications have emerged in different sectors.
+
+For instance, ATMs have been designed to recognize handwritten bank checks, making transactions smoother for users. Similarly, Evernote has developed the capability to identify handwritten task lists, helping individuals keep track of their to-dos more efficiently. Expensify also employs this technology to recognize handwritten receipts, streamlining expense reporting for users. These advancements showcase the versatility of machine learning in everyday applications.
+
+So, how do these systems achieve such remarkable feats? This project delves into K-means clustering, the algorithm that powers this impressive technology. By using scikit-learn, there is an opportunity to cluster images of handwritten digits, gaining insight into the underlying processes that enable these applications to function effectively.
+
 
 This project will scope, analyze, prepare, plot data, and seek to explain the findings from the analysis.
 
-Here are a couple of questions that this project seeks to answer:
-
-- What economic challenges are anticipated?      
-- What is the latest observation??
-- What is the earliest observation?
-- Is the general trend upward or downward?
-
-
-
-### Scenario
-In addition to your research on energy consumption in the United States, you are also conducting studies on U.S. economic conditions. Your objective is to analyze how economic indicators such as gross national product (GNP) and inflation/deflation fluctuate over time. This analysis will enable you to predict potential economic challenges that may arise in the near future.
-
-You possess a time series dataset that includes multiple variables. A univariate algorithm, such as ARIMA, will not suffice for your needs. Instead, you will need to employ a multivariate algorithm like VAR to effectively forecast the various economic factors involved.
-
 **Data Sources:**
 
-- economics_data.csv
+- [Optical Recognition of Handwritten Digits](https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits)
   
 
 ## Project Goals
-In this initiative, the viewpoint will be that of an economics analyst. The analyst's objective is to analyze how economic indicators such as gross national product (GNP) and inflation/deflation fluctuate over time.  As a result, the primary goals will be to understand economic conditions particualaryly through the lense of various finacial features and their predicted future use and to uncover emerging trends. Several questions will be asked:
+In this initiative, the viewpoint will be that of an economics analyst. The analyst's objective is to analyze how economic indicators such as gross national product (GNP) and inflation/deflation fluctuate over time.  As a result, the primary goals will be to understand economic conditions particularly through the lens of various finacial features and their predicted future use and to uncover emerging trends. Several questions will be asked:
 
 - What economic challenges are anticipated?      
 - Is the general trend upward or downward?
 
 
 
-#### Why use a multiivariate forecasting algorithm to predict future energy output?
-Forecasting proves to be highly effective in generating numerical predictions from data that displays temporal patterns, which aligns well with the objectives of this project. Instead of focusing on a single variable, multiple metrics will be analyzed. The simplicity of a univariate model will not suffice in this case.
+#### Why use a multivariate forecasting algorithm to predict future energy output?
+K-means clustering is a technique used in unsupervised machine learning that organizes similar data points into clusters, helping to uncover underlying patterns within the dataset, which aligns well with the objectives of this project. 
 
 
 ## Data
-An anonymized dataset that can be used to train the machine-learning model has been found. It is a CSV file containing 123 financial records. 
+A dataset from [UC Irving ML Repository](https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits) that can be used to train the machine-learning model has been found. It is a CSV file containing 5620 financial records. 
 
 
 ## Conclusions
-
-
-
-- **What economic challenges were anticipated**? 
-    - gdfim is forecasted to significantly decline in the late 80s and the early 90s, but seems to start
-recovering.
-    - gdfce is forecasted to significantly decline
-- **What is the latest observation**?
-    - July 1989
-- **What is the earliest observation**?
-    - January 1959
-- **Is the general trend upward or downward**?
-
-  _Most forecasts show an increase, though some start to dip_.
-
-    - rgnp is forecasted to fluctuate in the early 1990s, but ultimately start growing.
-    - pgnp is forecasted to mostly grow, with one hiccup in the late 80s.
-    - ulc is forecasted to fluctuate and appears to even out.
-    - gdfco is forecasted to grow.
-    - gdf is forecasted to mostly grow.
-    - gdfim is forecasted to significantly decline in the late 80s and the early 90s, but seems to start recovering.
-    - gdfcf is forecasted to take a slight dip in 1990s, but then start growing.
-    - gdfce is forecasted to significantly decline.
+- What economic challenges are anticipated?
+    - RGNP is expected to experience fluctuations in the early 1990s before entering a growth phase.
+    - PGNP is anticipated to show overall growth, with a minor setback in the late 1980s.      
+- Is the general trend upward or downward?
+    - Overall, the majority of features are showing an upward trend.
